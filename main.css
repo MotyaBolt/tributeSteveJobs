@@ -43,8 +43,12 @@ h4 {
     width: 700px;
 }
 #image {
-    width: 600px;
+    display: block;
+    width: 100%;
+    max-width: 600px;
     height: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 #tribute-link {
     color: blue;
